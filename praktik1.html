@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: Roboto;
+      }
+    </style>
+  </head>
+  <body>
+    <main style="width: 100%; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center">
+      <form style="border: 2px solid black; background-color: lightblue; padding-left: 1rem; padding-right: 1rem; padding-bottom: 1rem; border-radius: 10px">
+        <h1 style="width: 100%; text-align: center">Form Registrasi Akun</h1>
+        <div style="display: flex; flex-direction: row; align-items: center; padding-bottom: 1.5rem">
+          <label style="width: 100%; margin-right: 1rem; font-weight: bold" for="namalengkap">Nama lengkap</label>
+          <input style="border-radius: 5px; padding-top: 0.2rem; padding-bottom: 0.2rem; padding-left: 0.5rem" type="text" name="namalengkap" id="namalengkap" placeholder="namalengkap" />
+        </div>
+        <div style="display: flex; flex-direction: row; align-items: center; padding-bottom: 1.5rem">
+          <label style="width: 100%; margin-right: 1rem; font-weight: bold" for="username">Username</label>
+          <input style="border-radius: 5px; padding-top: 0.2rem; padding-bottom: 0.2rem; padding-left: 0.5rem" type="text" name="username" id="username" placeholder="username" />
+        </div>
+        <div style="display: flex; flex-direction: row; align-items: center; padding-bottom: 1.5rem">
+          <label style="width: 100%; margin-right: 1rem; font-weight: bold" for="email">Email</label>
+          <input style="border-radius: 5px; padding-top: 0.2rem; padding-bottom: 0.2rem; padding-left: 0.5rem" type="email" name="email" id="email" placeholder="email" />
+        </div>
+        <div style="display: flex; flex-direction: row; align-items: center; padding-bottom: 1.5rem">
+          <label style="width: 100%; margin-right: 1rem; font-weight: bold" for="password">Password</label>
+          <input style="border-radius: 5px; padding-top: 0.2rem; padding-bottom: 0.2rem; padding-left: 0.5rem" type="password" name="password" id="password" placeholder="password" />
+        </div>
+        <div style="display: flex; flex-direction: row; align-items: center; padding-bottom: 1.5rem">
+          <label style="width: 100%; margin-right: 1rem; font-weight: bold" for="password">Konfirmasi Password</label>
+          <input style="border-radius: 5px; padding-top: 0.2rem; padding-bottom: 0.2rem; padding-left: 0.5rem" type="password" name="password" id="password" placeholder="Masukan kembali passwords" />
+        </div>
+        <button style="width: 100%; padding-top: 0.5rem; padding-bottom: 0.5rem; padding-right: 0.5rem; padding-left: 0.5rem; border-radius: 5px; background-color: lightgreen; color: black">Daftar</button>
+      </form>
+    </main>
+  </body>
+</html>
